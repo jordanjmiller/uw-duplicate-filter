@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/jordanjmiller/uw-duplicate-filter#readme",
   "dependencies": {
+    "csv": "^5.3.2",
     "neat-csv": "^5.2.0"
   }
 }
