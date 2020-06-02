@@ -30,7 +30,7 @@ let output = 'username,firstName,lastName,studentID,fileName,\n';
 //     }
 // })
 
-fs.readFile('./SeattleData.csv', async (err, data) => {
+fs.readFile('./Input.csv', async (err, data) => {
     if (err) {
       console.error(err)
       return
@@ -51,7 +51,7 @@ if (dataArray){
        output += `${returnString}\n`
    }
 
-    fs.writeFile(`output.csv`, output, (err) => {
+    fs.writeFile(`Output.csv`, output, (err) => {
         if (err) throw err;
         console.log('The file has been saved!');
         });
