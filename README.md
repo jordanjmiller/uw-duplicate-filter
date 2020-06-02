@@ -7,7 +7,6 @@ The program works by checking the email rows for duplicates, and if one is found
 
 
 
-
 #### 1: Install programs
 
 1a: Install git bash for windows: https://gitforwindows.org/ 
@@ -20,7 +19,7 @@ Node.js is what runs the code, npm allows downloading of packages that are used 
 
 #### 2: Downloading the project:
 
-Go to https://github.com/jordanjmiller/uw-filename-harvester and click the green Clone or download button. Click download zip and extract it in your desired location.
+Go to https://github.com/jordanjmiller/uw-duplicate-filter and click the green Clone or download button. Click download zip and extract it in your desired location.
 
 #### 3: Install dependencies
 
